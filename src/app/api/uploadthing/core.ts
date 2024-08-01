@@ -22,9 +22,9 @@ export const ourFileRouter = {
 
       const { success } = await ratelimit.limit(ip)
 
-      if (!success) {
-        throw new UploadThingError("Rate limit exceeded")
-      }
+      // if (!success) {
+      //   throw new UploadThingError("Rate limit exceeded")
+      // }
 
       // This code runs on your server before upload
       const user = await auth(req)

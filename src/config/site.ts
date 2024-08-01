@@ -8,6 +8,6 @@ export const siteConfig = {
   url:
     env.NODE_ENV === "development"
       ? "http://localhost:3000"
-      : "https://uploader.sadmn.com",
-  links: { github: "https://github.com/sadmann7/file-uploader" },
+      : "https://file-uploader.discolalire.com",
+  links: { github: "https://github.com/jpainam/file-uploader" },
 }

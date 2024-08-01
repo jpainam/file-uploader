@@ -1,8 +1,8 @@
-# [File Uploader](https://uploader.sadmn.com)
+# [File Uploader](https://file-uploader.discolaire.com)
 
 This is a file uploader built with `shadnc/ui`, and `react-dropzone`. It is bootstrapped with `create-t3-app`.
 
-[![File Uploader](./public/images/screenshot.png)](https://uploader.sadmn.com)
+[![File Uploader](./public/images/screenshot.png)](https://file-uploader.discolaire.com)
 
 ## Tech Stack
 
@@ -25,7 +25,7 @@ This is a file uploader built with `shadnc/ui`, and `react-dropzone`. It is boot
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/sadmann7/file-uploader
+   git clone https://github.com/jpainam/file-uploader
    ```
 
 2. Install dependencies using pnpm
@@ -45,7 +45,3 @@ This is a file uploader built with `shadnc/ui`, and `react-dropzone`. It is boot
    ```bash
    pnpm run dev
    ```
-
-## How do I deploy this?
-
-Follow the deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.

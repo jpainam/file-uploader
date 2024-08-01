@@ -30,11 +30,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "sadmann7",
-      url: "https://www.sadmn.com",
+      name: "jpainam",
+      url: "https://file-uploader.discolaire.com",
     },
   ],
-  creator: "sadmann7",
+  creator: "jpainam",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og.jpg`],
-    creator: "@sadmann17",
+    creator: "@jpainam",
   },
   icons: {
     icon: "/icon.png",
