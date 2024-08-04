@@ -73,6 +73,7 @@ export function ReactHookFormDemo() {
                 <FormControl>
                   <FileUploader
                     value={field.value}
+                    accept={{ "application/pdf": [], "image/*": [] }}
                     onValueChange={field.onChange}
                     maxFileCount={4}
                     maxSize={4 * 1024 * 1024}
